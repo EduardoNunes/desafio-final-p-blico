@@ -1,0 +1,54 @@
+.container-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: #919a966c;
+}
+
+.container-modal .form-edit-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 40%;
+  height: 85%;
+  max-height: 600px;
+  border-radius: 20px;
+  padding: 0 5.5%;
+
+  background-color: #fff;
+}
+
+.container-modal .form-edit-user .form-header-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  width: 100%;
+}
+
+.container-modal .form-edit-user .form-header-user h1 {
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+
+.container-modal .form-edit-user .container-cpf-phone {
+  display: flex;
+  width: 100%;
+  gap: 3%;
+
+  margin: 2% 0;
+}
+
+.container-modal .form-edit-user #aply-changes-btn {
+  align-self: center;
+}

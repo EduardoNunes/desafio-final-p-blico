@@ -1,0 +1,150 @@
+.charges-container {
+  display: flex;
+  height: 100%;
+  width: 100vw;
+  background-color: #f8f8f9;
+}
+
+.charges-container .board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+.charges-container .board .container {
+  display: flex;
+  justify-content: center;
+
+  height: 100%;
+  width: 90%;
+}
+
+.charges-container .board .container .chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.charges-container .board .container .chart .tool-bar {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 88px;
+  padding: 20px 70px;
+}
+
+.charges-container .board .container .chart .tool-bar .left {
+  display: flex;
+  gap: 15px;
+}
+
+.charges-container .board .container .chart .tool-bar .tools {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  width: 35%;
+}
+
+.charges-container .board .container .chart .tool-bar .tools img {
+  display: flex;
+
+  padding: 6px;
+
+  background-color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.charges-container .board .container .chart .table-clients {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: calc(100% - 180px);
+}
+
+.charges-container .board .container .chart .table-clients .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 90%;
+  height: 96%;
+  padding: 0 20px;
+
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
+.charges-container .board .container .chart .table-clients .title ul {
+  display: flex;
+  justify-content: center;
+
+  height: 54px;
+  width: 100%;
+  padding: 0 10px;
+  border-bottom: 1px solid #eff0f6;
+  list-style: none;
+
+  font-family: "Nunito", sans-serif;
+}
+
+.charges-container .board .container .chart .table-clients .title ul li {
+  display: flex;
+  align-items: center;
+  width: 14.28%;
+  height: 54px;
+}
+
+.charges-container .board .container .chart .table-clients .title ul li img {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.charges-container .board .container .chart .table-clients .informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.charges-container
+  .board
+  .container
+  .chart
+  .table-clients
+  .informations
+  #group-empty-search {
+  height: 90%;
+  width: 90%;
+  margin-bottom: 3%;
+}
+
+.charges-container .board .container .chart .table-clients .informations span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  margin-top: 50px;
+  border-top: 1px solid #eff0f6;
+  border-bottom: 1px solid #eff0f6;
+
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #747488;
+}

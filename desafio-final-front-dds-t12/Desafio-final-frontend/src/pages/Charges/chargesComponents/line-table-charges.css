@@ -1,0 +1,103 @@
+.line-table-charges {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 10%;
+  min-height: 50px;
+  max-height: 70px;
+
+  border-bottom: 1px solid #eff0f6;
+  cursor: pointer;
+}
+
+.line-table-charges p {
+  max-width: 100%;
+  height: 22px;
+  padding: 0 10px;
+  font-weight: 400;
+
+  color: #747488;
+  font-family: "Nunito", sans-serif;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.line-table-charges .cliente {
+  width: 14.28%;
+  cursor: pointer;
+}
+
+.line-table-charges .id-cob {
+  width: 14.28%;
+}
+
+.line-table-charges .valor {
+  width: 14.28%;
+}
+
+.line-table-charges .data-venc {
+  width: 14.28%;
+}
+
+.line-table-charges .status {
+  width: 14.28%;
+}
+
+.line-table-charges .Vencida p {
+  display: flex;
+  justify-content: center;
+
+  width: 120px;
+  padding: 0 5px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  color: #971d1d;
+
+  background-color: #ffefef;
+}
+
+.line-table-charges .Paga p {
+  display: flex;
+  justify-content: center;
+
+  width: 120px;
+  padding: 0 5px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  color: #1fa7af;
+
+  background-color: #eef6f6;
+}
+
+.line-table-charges .Pendente p {
+  display: flex;
+  justify-content: center;
+
+  width: 120px;
+  padding: 0 5px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  color: #c5a605;
+
+  background-color: #fcf6dc;
+}
+
+.line-table-charges .descricao {
+  width: 20.28%;
+}
+
+.line-table-charges .editar-deletar {
+  display: flex;
+  justify-content: space-around;
+  width: 8.6%;
+}
+
+.line-table-charges .editar-deletar img {
+  cursor: pointer;
+}

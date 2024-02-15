@@ -1,0 +1,37 @@
+.line-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 25%;
+
+    border-bottom: 1px solid #EFF0F6;
+}
+
+.line-table p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.line-table .cliente {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    width: 33%;
+}
+
+.line-table .id-da-cob {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    width: 33%;
+}
+
+.line-table .valor {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    width: 33%;
+}

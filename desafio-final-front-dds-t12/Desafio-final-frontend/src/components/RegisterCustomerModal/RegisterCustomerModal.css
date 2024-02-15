@@ -1,0 +1,46 @@
+.container-modal #form-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  position: absolute;
+  top: 40px;
+
+  width: 40%;
+  height: auto;
+  border-radius: 20px;
+  padding: 2% 4%;
+
+  background-color: #fff;
+}
+
+.container-modal #form-modal .form-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+
+  position: relative;
+
+  width: 100%;
+}
+
+.form-header h1 {
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+
+.container-modal #form-modal .two-inputs {
+  display: flex;
+  gap: 3%;
+  width: 100%;
+
+  padding-left: ;
+
+  margin: 2% 0;
+}
+
+#aply-changes-btn {
+  align-self: center;
+}

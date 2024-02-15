@@ -1,0 +1,48 @@
+.container-SignUpSucess {
+  width: 80%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-SignUpSucess .box-Sucess {
+  width: 80%;
+  height: 80%;
+
+  border-radius: 30px;
+  background-color: #f0f0f5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.container-SignUpSucess .box-Sucess h1 {
+  font-family: Montserrat;
+}
+
+.container-SignUpSucess .goToLogin {
+  width: 220px;
+  height: 50px;
+
+  border-radius: 10px;
+  background-color: #da0175;
+  color: white;
+
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Nunito;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}

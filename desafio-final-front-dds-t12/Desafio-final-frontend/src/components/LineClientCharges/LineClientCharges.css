@@ -1,0 +1,96 @@
+.container-line-charges {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+
+  height: 33.33333%;
+  max-height: 50px;
+  border-bottom: 1px solid #eff0f6;
+}
+
+.container-line-charges .block p {
+  font-family: Nunito;
+  font-size: 14px;
+  color: #6e6e85;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container-line-charges p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.container-line-charges .id {
+  width: 13%;
+}
+
+.container-line-charges .date {
+  width: 14%;
+}
+
+.container-line-charges .valor {
+  width: 12%;
+}
+
+.container-line-charges .status {
+  width: 11%;
+}
+
+.container-line-charges .vencida p {
+  display: flex;
+  justify-content: center;
+
+  width: 100px;
+  padding: 0 5px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  color: #971d1d;
+
+  background-color: #ffefef;
+}
+
+.container-line-charges .pendente p {
+  display: flex;
+  justify-content: center;
+
+  width: 100px;
+  padding: 0 5px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  color: #c5a605;
+
+  background-color: #fcf6dc;
+}
+
+.container-line-charges .paga p {
+  display: flex;
+  justify-content: center;
+
+  width: 100px;
+  padding: 0 5px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  color: #1fa7af;
+
+  background-color: #eef6f6;
+}
+
+.container-line-charges .description {
+  width: 32%;
+}
+
+.container-line-charges img {
+  cursor: pointer;
+}
+
+.container-line-charges img:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}

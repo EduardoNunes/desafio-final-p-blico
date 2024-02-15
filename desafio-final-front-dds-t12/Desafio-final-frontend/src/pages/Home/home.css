@@ -1,0 +1,53 @@
+.home-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8F9;
+}
+
+.home-container .board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container .board .container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 90%;
+}
+
+.home-container .board .container .chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.home-container .board .container .chart .section-top {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 10%;
+    margin-top: 20px;
+}
+
+.home-container .board .container .chart .section-middle {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 40%;
+    margin-top: 16px;
+}
+
+.home-container .board .container .chart .section-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+    margin-top: 16px;
+}

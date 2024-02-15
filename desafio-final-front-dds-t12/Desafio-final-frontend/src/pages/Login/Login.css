@@ -1,0 +1,80 @@
+.container-login {
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+section {
+  height: 100%;
+}
+
+.container-login .left-side {
+  width: 30%;
+  background-image: url("../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-login .left-side h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #034a2a;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.container-login .right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 70%;
+  background-color: #f8f8f9;
+}
+
+#container-login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 400px;
+  height: 400px;
+}
+
+.container-login .right-side h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#container-login-form a {
+  font-size: 14px;
+  font-family: "nunito", sans-serif;
+  font-weight: 600;
+  color: rgba(218, 1, 117, 1);
+}
+
+#forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 22px;
+
+  font-size: 12px;
+}
+
+.no-account {
+  margin-top: 10px;
+}
+
+.no-account span {
+  font-size: 14px;
+  font-family: "nunito", sans-serif;
+
+  margin-right: 6px;
+  color: rgba(63, 63, 85, 1);
+}

@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  min-height: 90px;
+  height: 90px;
+  width: calc(100vw - 108px);
+}
+
+.header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  height: 100%;
+
+  padding: 6px 70px 0 70px;
+
+  border-bottom: 1px solid #acd9c5;
+}
+
+.header .title {
+  display: flex;
+  align-items: end;
+
+  height: 100%;
+  gap: 20px;
+
+  font-family: "Montserrat" sans-serif;
+  font-size: 16px;
+  color: #343447;
+}
+
+.header .title p {
+  display: flex;
+  height: 26px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.header .user {
+  display: flex;
+  align-items: center;
+}
+
+.header .user .initials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+
+  margin-right: 20px;
+  border-radius: 100%;
+
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #0e8750;
+
+  background-color: #dedee9;
+}
+
+.header .user .name {
+  display: flex;
+  position: relative;
+
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #0e8750;
+}
+
+.header .user .name .arrow-green {
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.header .user .name .edit-exit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+  width: 120px;
+  height: 66px;
+  top: 46px;
+  left: 70px;
+
+  padding-top: 6px;
+  border-radius: 8px;
+
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.header .user .name .edit-exit-none {
+  display: none;
+}
+
+.header .user .name .edit-exit img {
+  width: 30px;
+}

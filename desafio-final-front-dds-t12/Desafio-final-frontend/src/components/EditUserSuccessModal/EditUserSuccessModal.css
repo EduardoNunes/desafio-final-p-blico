@@ -1,0 +1,40 @@
+.container-success-edit-user-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: #919a966c;
+}
+
+.container-success-edit-user-modal .box-Sucess {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  width: 40%;
+  height: 85%;
+  max-height: 600px;
+  border-radius: 20px;
+  padding: 0 5.5%;
+
+  text-align: center;
+  color: #343447;
+  font-family: Montserrat;
+  font-weight: 700;
+
+  background-color: #fff;
+}
+
+.container-success-edit-user-modal .box-Sucess h1 {
+  text-align: center;
+  color: #343447;
+  font-family: Montserrat;
+  font-weight: 700;
+}

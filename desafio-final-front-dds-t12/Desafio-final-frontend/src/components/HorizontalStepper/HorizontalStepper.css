@@ -1,0 +1,15 @@
+.container-HorizontalStepper {
+  width: 60%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  position: absolute;
+  bottom: 64px;
+
+  cursor: pointer;
+}

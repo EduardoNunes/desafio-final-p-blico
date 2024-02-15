@@ -1,0 +1,130 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #919a964d;
+
+  position: absolute;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 3;
+}
+
+.background .container-info-charges {
+  width: 600px;
+  height: 461px;
+
+  border-radius: 30px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.background .container-info-charges .modal-header {
+  width: 80%;
+  height: auto;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* gap: 16px; */
+
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+.background .container-info-charges .modal-header .close-icon {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  cursor: pointer;
+}
+
+.background .container-info-charges .for-name {
+  width: 80%;
+  height: auto;
+}
+
+.background .container-info-charges .for-description {
+  width: 80%;
+  height: auto;
+}
+
+.background .container-info-charges .for-description .description {
+  width: 80%;
+  height: auto;
+  max-height: 130px;
+}
+
+.background .container-info-charges .maturity-value {
+  width: 80%;
+  display: flex;
+  align-items: left;
+}
+.background .container-info-charges .maturity-value div {
+  width: 50%;
+}
+
+.background .container-info-charges .id-status {
+  width: 80%;
+  height: auto;
+  display: flex;
+}
+
+.background .container-info-charges .id-status div {
+  width: 50%;
+}
+
+.background .container-info-charges .id-status .status-pendente {
+  display: flex;
+  justify-content: center;
+
+  width: 100px;
+  padding: 0 5px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  font-size: smaller;
+  color: #c5a605;
+
+  background-color: #fcf6dc;
+}
+
+.background .container-info-charges .id-status .status-vencida {
+  display: flex;
+  justify-content: center;
+
+  width: 100px;
+  padding: 0 5px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  font-size: smaller;
+
+  color: #971d1d;
+
+  background-color: #ffefef;
+}
+
+.background .container-info-charges .id-status .status-paga {
+  display: flex;
+  justify-content: center;
+
+  width: 100px;
+  padding: 0 5px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  font-size: smaller;
+  color: #1fa7af;
+
+  background-color: #eef6f6;
+}

@@ -1,0 +1,48 @@
+.container-VerticalStepper {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-VerticalStepper .box-VerticalStepper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-VerticalStepper .ball {
+  width: 36px;
+  height: 36px;
+}
+
+.container-VerticalStepper .line {
+  height: 50px;
+}
+
+.container-VerticalStepper .box-Text {
+  height: 210px;
+  padding-left: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 34px;
+}
+
+.container-VerticalStepper .box-Text .text {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.container-VerticalStepper .box-Text .text strong {
+  color: #0e8750;
+  font-family: Montserrat;
+}
+
+.container-VerticalStepper .box-Text .text p {
+  font-family: Nunito;
+}

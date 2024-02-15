@@ -1,0 +1,68 @@
+.container-confirm-delet-charge-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+
+  z-index: 3;
+
+  width: 100%;
+  height: 100%;
+
+  background: #919a966c;
+}
+
+.container-confirm-delet-charge-modal .box-confirm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+
+  width: 40%;
+  height: 85%;
+  max-height: 500px;
+  border-radius: 20px;
+  padding: 0 5.5%;
+
+  text-align: center;
+  color: #343447;
+  font-family: Montserrat;
+  font-weight: 700;
+
+  background-color: #fff;
+}
+.container-confirm-delet-charge-modal .box-confirm #close-confirm-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  z-index: 10;
+
+  width: 7%;
+  height: 7%;
+
+  cursor: pointer;
+}
+
+.container-confirm-delet-charge-modal .box-confirm #close-confirm-btn:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+}
+
+.container-confirm-delet-charge-modal .box-confirm h3 {
+  text-align: center;
+  color: #cc7800;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.container-confirm-delet-charge-modal .box-confirm .container-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+  width: 100%;
+}

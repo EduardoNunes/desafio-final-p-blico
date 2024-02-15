@@ -1,0 +1,29 @@
+.container-total-values {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 90px;
+
+    padding: 23px 40px;
+    border-radius: 30px;
+}
+
+.container-total-values .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-total-values .right .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #3F3F55;
+}
+
+.container-total-values .right .value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #3F3F55;
+}

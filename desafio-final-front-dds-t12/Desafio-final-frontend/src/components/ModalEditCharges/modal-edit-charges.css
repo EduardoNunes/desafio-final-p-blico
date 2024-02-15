@@ -1,0 +1,240 @@
+.container-modal-charges {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #919a964d;
+
+  position: absolute;
+  overflow-x: hidden;
+
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-modal-charges .modal-charges {
+  width: 600px;
+  height: 767px;
+
+  border-radius: 30px;
+  background-color: #ffffff;
+  top: 40px;
+  overflow-x: hidden;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-modal-charges .modal-charges .modal-header {
+  width: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 8px;
+  font-family: Montserrat;
+}
+
+.container-modal-charges .modal-charges .modal-header .paper-img {
+  width: 32px;
+  height: 32px;
+}
+
+.container-modal-charges .modal-charges .modal-header .close-img {
+  width: 32px;
+  height: 32px;
+
+  position: absolute;
+  right: 24px;
+  top: 24px;
+
+  cursor: pointer;
+}
+
+.container-modal-charges .modal-charges form {
+  width: 80%;
+  height: 86%;
+
+  padding-top: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  gap: 15px;
+  font-family: Nunito;
+}
+
+.container-modal-charges .modal-charges form .inputName {
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #d0d5dd;
+
+  padding-left: 8px;
+}
+
+.container-modal-charges .modal-charges form .forDescription {
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-modal-charges .modal-charges form .forDescription .inputDescription {
+  height: 88px;
+  border-radius: 10px;
+  border: 1px solid #d0d5dd;
+
+  font-family: sans-serif;
+  font-size: 12px;
+
+  text-align: left;
+  padding-bottom: 51px;
+  line-height: 30px;
+  padding-left: 8px;
+  font-size: 18px;
+  resize: none;
+
+  text-wrap: wrap;
+}
+
+.container-modal-charges .modal-charges form .error {
+  color: red;
+  font-size: small;
+}
+
+.container-modal-charges .modal-charges .maturity-value {
+  display: flex;
+
+  height: 92px;
+}
+
+.container-modal-charges .modal-charges .maturity-value div {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container-modal-charges .modal-charges .maturity-value div input {
+  height: 48px;
+  width: 232px;
+  border-radius: 10px;
+  border: 1px solid #d0d5dd;
+  font-family: sans-serif;
+  font-size: 18px;
+
+  padding-left: 8px;
+}
+
+.container-modal-charges
+  .modal-charges
+  .maturity-value
+  .input-value::-webkit-outer-spin-button,
+.input-value::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.container-modal-charges .modal-charges .chargeStatus {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 8px;
+}
+
+.container-modal-charges .modal-charges .chargeStatus .forRadios {
+  width: 100%;
+  height: 48px;
+
+  padding-left: 8px;
+
+  background-color: #f0f0f5;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.container-modal-charges .modal-charges .chargeStatus .forRadios input {
+  display: none;
+}
+
+.container-modal-charges
+  .modal-charges
+  .chargeStatus
+  .forRadios
+  input
+  + label::before {
+  width: 24px;
+  height: 24px;
+
+  content: "";
+
+  border-radius: 50%;
+  background-color: #c8c8d7;
+
+  display: inline-block;
+  vertical-align: bottom;
+
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.container-modal-charges
+  .modal-charges
+  .chargeStatus
+  .forRadios
+  input:checked
+  + label::before {
+  background-color: green;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 11 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Group 84'%3E%3Cpath id='Vector' d='M9.72727 1.4541L3.72727 7.99956L1 5.02435' stroke='%23FCFCFC' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.container-modal-charges .modal-charges form .forButtons {
+  width: 100%;
+  height: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 80px;
+}
+
+.container-modal-charges .modal-charges form .forButtons .buttonCancel {
+  width: 50%;
+  height: 100%;
+
+  border: 1px solid #dedee9;
+  border-radius: 10px;
+  background-color: #ffffff;
+
+  color: green;
+  font-size: large;
+  cursor: pointer;
+}
+
+.container-modal-charges .modal-charges form .forButtons .buttonApply {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+
+  border: none;
+  background-color: #da0175;
+
+  color: #ffffff;
+  font-size: large;
+  cursor: pointer;
+}
